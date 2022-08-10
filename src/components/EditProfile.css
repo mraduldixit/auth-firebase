@@ -1,0 +1,85 @@
+.profile {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.updateName {
+  margin-top: 50px;
+  height: 450px;
+  width: 500px;
+  border-radius: 5px;
+  border: 1px solid rgb(94, 94, 94);
+  background-color: rgba(0, 255, 170, 0.377);
+}
+
+.updateImg {
+  margin-top: 50px;
+  height: 450px;
+  width: 500px;
+  border-radius: 5px;
+  border: 1px solid rgb(94, 94, 94);
+  background-color: rgba(0, 255, 170, 0.377);
+}
+.name-title {
+  text-align: center;
+  margin: 30px;
+}
+.description {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: flex;
+}
+.input-box {
+  padding: 10px 15px;
+  box-sizing: border-box;
+  margin-left: 120px;
+}
+.name-btn {
+  margin-left: 10px;
+  width: 120px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(15, 102, 184);
+  color: white;
+  cursor: pointer;
+}
+
+.profile-alt {
+  margin-left: 140px;
+  margin-bottom: 10px;
+}
+
+.img-title {
+  text-align: center;
+  margin: 30px;
+}
+.description-img {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: flex;
+}
+.input-img {
+  padding: 10px 15px;
+  box-sizing: border-box;
+  margin-left: 120px;
+  font-weight: bold;
+  color: dodgerblue;
+  padding: 0.5em;
+  border: thin solid grey;
+  border-radius: 3px;
+  width: 180px;
+  margin-right: 20px;
+}
+.img-btn {
+  margin-right: 10px;
+  width: 150px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(15, 102, 184);
+  color: white;
+  cursor: pointer;
+}
